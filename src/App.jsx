@@ -2,14 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar'
+import Test from './components/Test'
+import Input from './components/Input'
+import { Button } from './components/Button'
+
 
 function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <Navbar isMobile={false} darkBtn={true}/>
+      {/* <Navbar/>
+      <Showcase/>
+      <Footer/> */}
+
+      <Button><h1>Button</h1></Button>
     </>
   )
 }
