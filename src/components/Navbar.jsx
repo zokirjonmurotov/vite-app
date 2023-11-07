@@ -1,4 +1,5 @@
 import { Button } from "./Button";
+import classes from "./Navbar.module.scss";
 
 export default function Navbar(props){
     console.log(props);
@@ -10,15 +11,11 @@ export default function Navbar(props){
         )
     }
 
-
     return(
         <>
+        <div className={classes.nav}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, pariatur?</div>
         <h1>logo</h1>
         <Button dark={props.darkBtn}/>
-        {/* {
-            props.darkBtn ? <Button dark={true}/> : <Button />
-        } */}
-        
         </>
     )
 }
